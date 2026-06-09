@@ -36,9 +36,7 @@ An AI-powered agentic pipeline that automates end-to-end vendor contract review.
 ## Pipeline
 
 ```
-START → ReadContract → ClassifyContract → ExtractClauses → SearchRAG
-      → CheckIssues → DraftFinding → GenerateReport → LawyerReview
-      → FinaliseReport → END
+START → ReadContract → ClassifyContract → ExtractClauses → SearchRAG → CheckIssues → DraftFinding → GenerateReport → LawyerReview → FinaliseReport → END
 ```
 
 | Node | Description |
